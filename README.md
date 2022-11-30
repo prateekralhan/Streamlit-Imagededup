@@ -45,7 +45,7 @@ docker ps
 ### Heroku Deployment (Optional)
 1. Navigate to the [Heroku Platform](https://www.heroku.com/) and login using your E-mail. In case you don't have an account, you can sign-up using your E-mail.
 2. After account creation and successful login, click on **Create New App**. The platform shall now ask you to choose a suitable name for the webapp and the corresponding region (Europe/United States)
-3. Add a payment method and click on **Create App**.
+3. Add a payment method and click on **Create App**. ***(Heroku's free tier plan for webapps deployment has ended. For more details, you can refer [this.](https://help.heroku.com/RSBRUH58/removal-of-heroku-free-product-plans-faq))***
 4. Open a new tab and login into your [Github Account](https://github.com/) and create a git repository comprising of this entire directory's files and sub-directories. Ensure that your webapp's directory structure looks like this:
 ![ls](https://user-images.githubusercontent.com/29462447/204844686-aa004efe-39b4-49f2-a5a7-a5098831c1df.png)
 
