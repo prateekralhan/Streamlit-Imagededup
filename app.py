@@ -37,11 +37,8 @@ def convert_df(df):
 def find_duplicate_imgs():
     phasher = PHash()
     encodings = phasher.encode_images(image_dir='uploads/')
-    duplicates = phasher.find_duplicates(encoding_map=encodings)
-    dup_imgs = []
-    [dup_imgs.append(x) for x in list(duplicates.values()) if len(x)!=0]
-    final_dup_imgs = [j for i in dup_imgs for j in i]
-    return final_dup_imgs
+    duplicates = phasher.find_duplicates_to_remove(encoding_map=encodings)
+    return duplicates
 
 
 if __name__ == '__main__':
