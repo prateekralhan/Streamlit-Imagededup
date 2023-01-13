@@ -2,7 +2,7 @@
 
 A simple streamlit based web application in order to find duplicates in a corpus of images using perceptual hashing, uploaded by the user.
 
-![demo](https://user-images.githubusercontent.com/29462447/203412429-ebdcc031-dd6e-4f32-87df-69f1931d75e1.gif)
+![demo](https://user-images.githubusercontent.com/29462447/212420444-ba0aae5a-dd73-4b43-bf96-158f59e5e85b.gif)
 
 
 ## Installation:
